@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    //We are using getX so we have to change this material app into getmaterialapp
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: appname,
       theme: ThemeData(
