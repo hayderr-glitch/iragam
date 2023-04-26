@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tralaga/consts/consts.dart';
 import 'package:tralaga/widgets_common/applogo_widget.dart';
 import 'package:tralaga/widgets_common/bg_widget.dart';
+import 'package:tralaga/widgets_common/custom_textfield.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -19,8 +20,9 @@ class LoginScreen extends StatelessWidget {
               "Log in to $appname".text.fontFamily(bold).white.size(18).make(),
               10.heightBox,
               Column(
-                children: const [
-                  TextField(),
+                children: [
+                  customTextField(),
+                  customTextField(),
                 ],
               ).box.white.rounded.padding(const EdgeInsets.all(16)).width(context.screenWidth-70).make()
             ],

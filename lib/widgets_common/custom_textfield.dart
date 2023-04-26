@@ -1,6 +1,6 @@
 import 'package:tralaga/consts/consts.dart';
 
-Widget customText() {
+Widget customTextField() {
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
