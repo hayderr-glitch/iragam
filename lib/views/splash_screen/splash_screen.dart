@@ -53,3 +53,6 @@ class _SplashScreenState extends State<SplashScreen> {
     );
   }
 }
+
+class Get {
+}
