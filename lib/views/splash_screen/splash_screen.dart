@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:tralaga/consts/colors.dart';
 import 'package:tralaga/consts/consts.dart';
 import 'package:tralaga/views/auth_screen/login_screen.dart';
@@ -52,7 +54,4 @@ class _SplashScreenState extends State<SplashScreen> {
       ),
     );
   }
-}
-
-class Get {
 }

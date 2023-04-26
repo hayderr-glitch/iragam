@@ -18,6 +18,11 @@ class LoginScreen extends StatelessWidget {
               10.heightBox,
               "Log in to $appname".text.fontFamily(bold).white.size(18).make(),
               10.heightBox,
+              Column(
+                children: const [
+                  TextField(),
+                ],
+              ).box.white.rounded.padding(const EdgeInsets.all(16)).width(context.screenWidth-70).make()
             ],
           ),
         ),
