@@ -17,4 +17,21 @@ const privacyPolicy = "Privacy Policy";
 const termAndCond = "Terms and Conditions";
 const alreadyHaveAccount = "Already have an account?";
 //Home strings
-const home = "Home", categories = "Categories", cart = "Cart", account = "Account";
+const home = "Home",
+    categories = "Categories",
+    cart = "Cart",
+    account = "Account";
+//Home screen strings
+const searchAnything = "Searching anything...",
+    todayDeal = "Today's Deal",
+    flashSale = "Flash Sale",
+    topSellers = "Top Sellers",
+    brand = "Brand",
+    topCategories = "Top Categories",
+    womenDress = "Women Dress",
+    girlsWatches = "Girls Watches",
+    mobilePhone = "Mobile Phone",
+    boysGlasses = "Boys Glasses",
+    tShirts = "TShirts",
+    girlsDress = "Girls Dress",
+    featuredCategories = "Featured Categories";
