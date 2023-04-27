@@ -4,6 +4,7 @@ import 'package:get/get_core/src/get_main.dart';
 import 'package:tralaga/consts/consts.dart';
 import 'package:tralaga/consts/lists.dart';
 import 'package:tralaga/views/auth_screen/signup_screen.dart';
+import 'package:tralaga/views/home_screen/home.dart';
 import 'package:tralaga/widgets_common/applogo_widget.dart';
 import 'package:tralaga/widgets_common/bg_widget.dart';
 import 'package:tralaga/widgets_common/custom_textfield.dart';
@@ -40,7 +41,9 @@ class LoginScreen extends StatelessWidget {
                           color: redColor,
                           title: login,
                           textColor: whiteColor,
-                          onPress: () {})
+                          onPress: () {
+                            Get.to(()=>const Home());
+                          })
                       .box
                       .width(context.screenWidth - 50)
                       .make(),
